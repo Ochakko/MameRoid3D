@@ -1,0 +1,33 @@
+﻿2012/03/12 13:21:28 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\dev\OchakkoOSS\KinecoDX\KinecoDX.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\KinecoDX.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KINECODX_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt KinecoDX.cpp
+         KinecoDX.cpp
+     1>KinecoDX.cpp(81): warning C4996: 'xn::Context::Shutdown': You may use Release() instead, or count on dtor
+                 C:\Program Files (x86)\OpenNI\include\XnCppWrapper.h(5706) : 'xn::Context::Shutdown' の宣言を確認してください。
+     1>KinecoDX.cpp(210): warning C4996: 'xn::Context::OpenFileRecording': Use other overload!
+                 C:\Program Files (x86)\OpenNI\include\XnCppWrapper.h(5614) : 'xn::Context::OpenFileRecording' の宣言を確認してください。
+     1>KinecoDX.cpp(220): warning C4996: 'xn::Context::InitFromXmlFile': Use other overload!
+                 C:\Program Files (x86)\OpenNI\include\XnCppWrapper.h(5576) : 'xn::Context::InitFromXmlFile' の宣言を確認してください。
+     1>KinecoDX.cpp(266): warning C4996: 'xn::SkeletonCapability::RegisterCalibrationCallbacks': Please use RegisterToCalibrationStart/Complete
+                 C:\Program Files (x86)\OpenNI\include\XnCppWrapper.h(4327) : 'xn::SkeletonCapability::RegisterCalibrationCallbacks' の宣言を確認してください。
+     1>KinecoDX.cpp(278): warning C4996: 'xn::PoseDetectionCapability::RegisterToPoseCallbacks': Please use RegisterToPoseDetected/RegisterToOutOfPose instead
+                 C:\Program Files (x86)\OpenNI\include\XnCppWrapper.h(4649) : 'xn::PoseDetectionCapability::RegisterToPoseCallbacks' の宣言を確認してください。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\OchakkoOSS\KinecoDX\Release\KinecoDX.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib OpenNI.lib d3dx9.lib d3d9.lib winmm.lib d3dxof.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\KinecoDX.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\dev\OchakkoOSS\KinecoDX\Release\KinecoDX.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\OchakkoOSS\KinecoDX\Release\KinecoDX.lib" /MACHINE:X86 /DLL Release\KinecoDX.obj
+            ライブラリ C:\dev\OchakkoOSS\KinecoDX\Release\KinecoDX.lib とオブジェクト C:\dev\OchakkoOSS\KinecoDX\Release\KinecoDX.exp を作成中
+         コード生成しています。
+         コード生成が終了しました。
+         KinecoDX.vcxproj -> C:\dev\OchakkoOSS\KinecoDX\Release\KinecoDX.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\dev\OchakkoOSS\KinecoDX\Release\KinecoDX.dll;#2" /manifest Release\KinecoDX.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\KinecoDX.unsuccessfulbuild" を削除しています。
+         "Release\KinecoDX.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\dev\OchakkoOSS\KinecoDX\KinecoDX.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.62

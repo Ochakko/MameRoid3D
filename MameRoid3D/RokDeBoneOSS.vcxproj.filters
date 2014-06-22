@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="disp4">
+      <UniqueIdentifier>{8a94356d-8664-42bb-b080-09a54e8d0285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{07427179-f517-4d09-8ce5-458327c1336e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kinect">
+      <UniqueIdentifier>{d5c11a4a-4911-4ecd-98f0-5b35d61b959a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\disp4\CPP\dbg.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\DispObj.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\GetMaterial.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\Model.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\mqoface.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\mqofile.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\mqomaterial.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\mqoobject.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\polymesh3.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\TexBank.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\TexElem.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="RDBMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\Bone.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\InfScope.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\InfBone.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\VecMath.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\quaternion.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\MotionPoint.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\ExtLine.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\MySprite.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\OrgWindow.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\Collision.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\QubFile.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\XMLIO.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\RdbFile.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\XFile.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\EngName.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\ColladaExporter.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\ExporterCommon.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectMain.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\kinect\FilterDlg.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\kinect\rps.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\kinect\TraQ.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\kinect\ConvSetDlg.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\kinect\KbsFile.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\MorphKey.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="RMenuMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\FBXFile.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\FBXBone.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\UndoMotion.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\disp4\CPP\RdbIniFile.cpp">
+      <Filter>disp4</Filter>
+    </ClCompile>
+    <ClCompile Include="GetDlgParams.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\disp4\DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\disp4\DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\disp4\DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\disp4\DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\disp4\DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\disp4\DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\disp4\DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\disp4\DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PmCipherDll\PmCipherDll.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RokDeBoneOSS.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OpenRDB.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="OpenRDB_DX.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\Media\MameRoid3D.bmp">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\Media\MameRoid3D.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\media\icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>

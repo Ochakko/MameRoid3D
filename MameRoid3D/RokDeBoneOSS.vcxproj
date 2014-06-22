@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F0B85D8F-250E-4C4C-AFB2-B57971DDD5DC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RokDeBoneOSS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(WindowsSdkDir)\common\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(WindowsSdkDir)\common\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>MameRoid3D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(WindowsSdkDir)\common\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(WindowsSdkDir)\common\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>MameRoid3D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\DX90c\include;..\disp4\INCLUDE;..\disp4\DXUT\Core;..\disp4\DXUT\Optional;..\disp4\kinect;..\colladadom\dom\include;..\colladadom\dom\include\1.4;..\colladadom\dom\external-libs\boost;..\PmCipherDll;C:\Program Files\Autodesk\FBX\FbxSdk\2012.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\DX90c\lib\x86;..\colladadom\dom\build\vc10-1.4-d;..\colladadom\dom\external-libs\libxml2\win32\lib;..\colladadom\dom\external-libs\pcre\lib\vc10;..\colladadom\dom\external-libs\boost\lib\vc10;..\colladadom\dom\external-libs\minizip\win32\lib;..\PmCipherDll;C:\Program Files\Autodesk\FBX\FbxSdk\2012.2\lib\vs2010\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libcollada14dom22-d.lib;libxml2.lib;pcred.lib;pcrecppd.lib;libboost_filesystem-d.lib;libboost_system-d.lib;minizip.lib;dxerr.lib;dxguid.lib;d3dx9.lib;d3dx10.lib;d3d9.lib;winmm.lib;comctl32.lib;PmCipherDll.lib;shlwapi.lib;imagehlp.lib;fbxsdk-2012.2-mdd.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\DX90c\include;..\disp4\INCLUDE;..\disp4\DXUT\Core;..\disp4\DXUT\Optional;..\disp4\kinect;..\colladadom\dom\include;..\colladadom\dom\include\1.4;..\colladadom\dom\external-libs\boost;..\PmCipherDll;C:\Program Files\Autodesk\FBX\FbxSdk\2012.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\DX90c\lib\x86;..\colladadom\dom\build\vc10-1.4;..\colladadom\dom\external-libs\libxml2\win32\lib;..\colladadom\dom\external-libs\pcre\lib\vc10;..\colladadom\dom\external-libs\boost\lib\vc10;..\colladadom\dom\external-libs\minizip\win32\lib;..\PmCipherDll;C:\Program Files\Autodesk\FBX\FbxSdk\2012.2\lib\vs2010\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libcollada14dom22.lib;libxml2.lib;pcred.lib;pcrecppd.lib;libboost_filesystem.lib;libboost_system.lib;minizip.lib;dxerr.lib;dxguid.lib;d3dx9.lib;d3dx10.lib;d3d9.lib;winmm.lib;comctl32.lib;PmCipherDll.lib;shlwapi.lib;imagehlp.lib;fbxsdk-2012.2-md.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\disp4\CPP\Bone.cpp" />
+    <ClCompile Include="..\disp4\CPP\ColladaExporter.cpp" />
+    <ClCompile Include="..\disp4\CPP\Collision.cpp" />
+    <ClCompile Include="..\disp4\CPP\dbg.cpp" />
+    <ClCompile Include="..\disp4\CPP\DispObj.cpp" />
+    <ClCompile Include="..\disp4\CPP\EngName.cpp" />
+    <ClCompile Include="..\disp4\CPP\ExporterCommon.cpp" />
+    <ClCompile Include="..\disp4\CPP\ExtLine.cpp" />
+    <ClCompile Include="..\disp4\CPP\FBXBone.cpp" />
+    <ClCompile Include="..\disp4\CPP\FBXFile.cpp" />
+    <ClCompile Include="..\disp4\CPP\GetMaterial.cpp" />
+    <ClCompile Include="..\disp4\CPP\InfBone.cpp" />
+    <ClCompile Include="..\disp4\CPP\InfScope.cpp" />
+    <ClCompile Include="..\disp4\CPP\Model.cpp" />
+    <ClCompile Include="..\disp4\CPP\MorphKey.cpp" />
+    <ClCompile Include="..\disp4\CPP\MotionPoint.cpp" />
+    <ClCompile Include="..\disp4\CPP\mqoface.cpp" />
+    <ClCompile Include="..\disp4\CPP\mqofile.cpp" />
+    <ClCompile Include="..\disp4\CPP\mqomaterial.cpp" />
+    <ClCompile Include="..\disp4\CPP\mqoobject.cpp" />
+    <ClCompile Include="..\disp4\CPP\MySprite.cpp" />
+    <ClCompile Include="..\disp4\CPP\OrgWindow.cpp" />
+    <ClCompile Include="..\disp4\CPP\polymesh3.cpp" />
+    <ClCompile Include="..\disp4\CPP\quaternion.cpp" />
+    <ClCompile Include="..\disp4\CPP\QubFile.cpp" />
+    <ClCompile Include="..\disp4\CPP\RdbFile.cpp" />
+    <ClCompile Include="..\disp4\CPP\RdbIniFile.cpp" />
+    <ClCompile Include="..\disp4\CPP\TexBank.cpp" />
+    <ClCompile Include="..\disp4\CPP\TexElem.cpp" />
+    <ClCompile Include="..\disp4\CPP\UndoMotion.cpp" />
+    <ClCompile Include="..\disp4\CPP\VecMath.cpp" />
+    <ClCompile Include="..\disp4\CPP\XFile.cpp" />
+    <ClCompile Include="..\disp4\CPP\XMLIO.cpp" />
+    <ClCompile Include="..\disp4\DXUT\Core\DXUT.cpp" />
+    <ClCompile Include="..\disp4\DXUT\Core\DXUTenum.cpp" />
+    <ClCompile Include="..\disp4\DXUT\Core\DXUTmisc.cpp" />
+    <ClCompile Include="..\disp4\DXUT\Optional\DXUTcamera.cpp" />
+    <ClCompile Include="..\disp4\DXUT\Optional\DXUTgui.cpp" />
+    <ClCompile Include="..\disp4\DXUT\Optional\DXUTres.cpp" />
+    <ClCompile Include="..\disp4\DXUT\Optional\DXUTsettingsdlg.cpp" />
+    <ClCompile Include="..\disp4\DXUT\Optional\SDKmisc.cpp" />
+    <ClCompile Include="..\disp4\kinect\ConvSetDlg.cpp" />
+    <ClCompile Include="..\disp4\kinect\FilterDlg.cpp" />
+    <ClCompile Include="..\disp4\kinect\KbsFile.cpp" />
+    <ClCompile Include="..\disp4\kinect\rps.cpp" />
+    <ClCompile Include="..\disp4\kinect\TraQ.cpp" />
+    <ClCompile Include="GetDlgParams.cpp" />
+    <ClCompile Include="KinectMain.cpp" />
+    <ClCompile Include="RDBMain.cpp" />
+    <ClCompile Include="RegistDlg.cpp" />
+    <ClCompile Include="RMenuMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\disp4\DXUT\Core\DXUT.h" />
+    <ClInclude Include="..\disp4\DXUT\Core\DXUTenum.h" />
+    <ClInclude Include="..\disp4\DXUT\Core\DXUTmisc.h" />
+    <ClInclude Include="..\disp4\DXUT\Optional\DXUTcamera.h" />
+    <ClInclude Include="..\disp4\DXUT\Optional\DXUTgui.h" />
+    <ClInclude Include="..\disp4\DXUT\Optional\DXUTres.h" />
+    <ClInclude Include="..\disp4\DXUT\Optional\DXUTsettingsdlg.h" />
+    <ClInclude Include="..\disp4\DXUT\Optional\SDKmisc.h" />
+    <ClInclude Include="..\PmCipherDll\PmCipherDll.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RokDeBoneOSS.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\media\icon1.ico" />
+    <None Include="..\Media\MameRoid3D.bmp" />
+    <None Include="..\Media\MameRoid3D.ico" />
+    <None Include="icon1.ico" />
+    <None Include="OpenRDB.ico" />
+    <None Include="OpenRDB_DX.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
