@@ -4,18 +4,11 @@ Format Text Ver 1.0
 Scene {
 	pos -4.0573 127.0827 1500.0000
 	lookat 0.0000 0.0000 0.0000
-	head 6.3900
-	pich 0.3708
-	bank 0.0000
+	head 6.3200
+	pich 0.5308
 	ortho 0
 	zoom2 2.2351
 	amb 0.250 0.250 0.250
-	dirlights 1 {
-		light {
-			dir 0.408 0.408 0.816
-			color 1.000 1.000 1.000
-		}
-	}
 }
 Material 14 {
 	"KAO" shader(3) col(1.000 1.000 1.000 1.000) dif(0.750) amb(0.200) emi(0.350) spc(0.000) power(5.00) tex("KAO.bmp")
@@ -39,7 +32,7 @@ Object "アンテナ" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 100.0
@@ -171,7 +164,7 @@ Object "首から上" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 100.0
@@ -1355,7 +1348,7 @@ Object "体" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 100.0
@@ -2996,7 +2989,7 @@ Object "スカート" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 100.0
@@ -3349,7 +3342,7 @@ Object "足" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 100.0
@@ -4436,7 +4429,7 @@ Object "anchor_1|アンテナ" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 -52.487614 -180.000000
 	translation 0.000000 256.195740 17.888500
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4467,7 +4460,7 @@ Object "anchor_1|首から上" {
 	scale 1.000000 1.000000 1.000000
 	rotation -180.000000 -89.069801 0.000000
 	translation 0.000000 168.411453 -3.768350
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4498,7 +4491,7 @@ Object "anchor_3|体" {
 	scale 1.000000 1.000000 1.000000
 	rotation 82.239075 7.406063 2.360159
 	translation 66.075455 65.594597 9.050150
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4557,7 +4550,7 @@ Object "anchor_31|体" {
 	scale 1.000000 1.000000 1.000000
 	rotation 82.239075 7.406062 2.360077
 	translation 66.075455 65.594597 9.050150
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4616,7 +4609,7 @@ Object "anchor_1|体" {
 	scale 1.000000 1.000000 1.000000
 	rotation -146.267822 89.383247 -146.148972
 	translation -0.167800 -9.870250 -9.689899
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4661,7 +4654,7 @@ Object "anchor_1|スカート" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 66.155540 0.000000
 	translation 0.000000 -99.131950 7.982000
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4692,7 +4685,7 @@ Object "anchor_1|足" {
 	scale 1.000000 1.000000 1.000000
 	rotation 16.283522 86.377823 15.922530
 	translation 27.569750 -93.235756 -9.745200
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4751,7 +4744,7 @@ Object "anchor_腰|足" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4796,7 +4789,7 @@ Object "anchor_腰|スカート" {
 	scale 1.000000 1.000000 1.000000
 	rotation 0.000000 0.000000 0.000000
 	translation 0.000000 0.000000 0.000000
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
@@ -4827,7 +4820,7 @@ Object "anchor_11|足" {
 	scale 1.000000 1.000000 1.000000
 	rotation 16.283522 86.377823 15.922530
 	translation 27.569750 -93.235756 -9.745200
-	visible 0
+	visible 15
 	locking 0
 	shading 1
 	facet 59.5
